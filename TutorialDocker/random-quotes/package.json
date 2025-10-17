@@ -1,0 +1,28 @@
+{
+  "name": "random-quotes",
+  "version": "1.0.0",
+  "description": "Educational Express service that serves random quotes and demonstrates Docker & Docker Swarm deployment.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "echo \"No linter configured\" && exit 0",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "express",
+    "docker",
+    "tutorial"
+  ],
+  "author": "Sebastian Gomez <seagomezar@gmail.com> (http://www.sebasgo.dev/)",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
